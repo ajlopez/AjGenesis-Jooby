@@ -1,0 +1,18 @@
+{ "name": "ajgenesis-jooby"
+, "description": "AjGenesis for Node, Jooby verbs and templates"
+, "keywords": [ "codegeneration", "nodejs", "ajgenesis", "jooby" ]
+, "version": "0.0.1alpha"
+, "author": "Angel 'Java' Lopez <webmaster@ajlopez.com> (http://www.ajlopez.com)"
+, "repository": { "type": "git", "url": "git://github.com/ajlopez/AjGenesis-Jooby.git" }
+, "main": "./index.js"
+, "engines": { "node": ">= 0.10.0" }
+, "scripts": {
+    "test": "simpleunit ./test"
+  }
+, "dependencies": {
+  }
+, "devDependencies": {
+    "simpleasync": "0.0.7",
+    "simpleunit": "0.0.7"
+  }
+}
